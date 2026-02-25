@@ -70,7 +70,7 @@ with col4:
 
 # Row 3
 st.subheader("🚘 Vehicle Type Analysis")
-st.image("powerbi_vehicle Type.png.png", use_column_width=True)
+st.image("powerbi_vehicle_type.png.png", use_column_width=True)
 
 st.markdown("---")
 
@@ -103,4 +103,5 @@ fig4 = px.histogram(filtered_df, x="driver_rating", nbins=10)
 st.plotly_chart(fig4, use_container_width=True)
 
 st.success("Dashboard Loaded Successfully 🚀")
+
 
